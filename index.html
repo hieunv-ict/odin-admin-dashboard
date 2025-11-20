@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');</style>
     <link rel="stylesheet" href="dashboard.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="header">
@@ -15,20 +16,20 @@
         <div class="account">
             <img src="./icons/bell-outline.svg" class="icon">
             <img src="cat-avatar-square.jpg" alt="user-avatar" class="avatar sub">
-            <span>Hieu Nguyen</span>
+            <span class="roboto-semibold">Hieu Nguyen</span>
         </div>
         <div class="user">
             <img src="cat-avatar-square.jpg" alt="user-avatar" class="avatar main">
             <div class="user-title">   
-                <p>Hi there,</p>
-                <h1>Hieu Nguyen (@hieunv-ict)</h1>
+                <p class="roboto-semibold">Hi there,</p>
+                <h2>Hieu Nguyen (@hieunv-ict)</h2>
             </div>
             
         </div>
         <div class="tool-btns">
-            <button class="btn">New</button>
-            <button class="btn">Upload</button>
-            <button class="btn">Share</button>
+            <button class="btn roboto-semibold">New</button>
+            <button class="btn roboto-semibold">Upload</button>
+            <button class="btn roboto-semibold">Share</button>
         </div>
     </div>
 
@@ -61,7 +62,7 @@
                 <div class="card">
                     <div class="card-content">
                         <h3>Project Title</h3>
-                        <p>description</p>
+                        <p>Quisque auctor urna sit amet turpis luctus commodo. Cras eu porta nulla, a faucibus neque. Aliquam tempus ullamcorper sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquet est eu ante pretium blandit. Donec eget quam quis lorem malesuada viverra ac sit amet dui. Morbi eget nunc eu dolor tempus consectetur. Quisque vehicula enim ac metus iaculis, vitae posuere felis tincidunt.</p>
                     </div>
                     <div class="card-icon">
                         <img src="./icons/star-plus-outline.svg" alt="star" class="prj-btn">
@@ -73,7 +74,7 @@
                 <div class="card">
                     <div class="card-content">
                         <h3>Project Title</h3>
-                        <p>description</p>
+                        <p>Quisque auctor urna sit amet turpis luctus commodo. Cras eu porta nulla, a faucibus neque. Aliquam tempus ullamcorper sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquet est eu ante pretium blandit. Donec eget quam quis lorem malesuada viverra ac sit amet dui.</p>
                     </div>
                     <div class="card-icon">
                         <img src="./icons/star-plus-outline.svg" alt="star" class="prj-btn">
@@ -85,7 +86,7 @@
                <div class="card">
                     <div class="card-content">
                         <h3>Project Title</h3>
-                        <p>description</p>
+                        <p>Quisque auctor urna sit amet turpis luctus commodo. Cras eu porta nulla, a faucibus neque. Aliquam tempus ullamcorper sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquet est eu ante pretium blandit. Donec eget quam quis lorem malesuada viverra ac sit amet dui.</p>
                     </div>
                     <div class="card-icon">
                         <img src="./icons/star-plus-outline.svg" alt="star" class="prj-btn">
@@ -97,7 +98,7 @@
                 <div class="card">
                     <div class="card-content">
                         <h3>Project Title</h3>
-                        <p>description</p>
+                        <p>Quisque auctor urna sit amet turpis luctus commodo. Cras eu porta nulla, a faucibus neque. Aliquam tempus ullamcorper sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquet est eu ante pretium blandit. Donec eget quam quis lorem malesuada viverra ac sit amet dui.</p>
                     </div>
                     <div class="card-icon">
                         <img src="./icons/star-plus-outline.svg" alt="star" class="prj-btn">
@@ -109,7 +110,7 @@
                 <div class="card">
                     <div class="card-content">
                         <h3>Project Title</h3>
-                        <p>description</p>
+                        <p>Quisque auctor urna sit amet turpis luctus commodo. Cras eu porta nulla, a faucibus neque. Aliquam tempus ullamcorper sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquet est eu ante pretium blandit. Donec eget quam quis lorem malesuada viverra ac sit amet dui.</p>
                     </div>
                     <div class="card-icon">
                         <img src="./icons/star-plus-outline.svg" alt="star" class="prj-btn">
@@ -121,7 +122,7 @@
                 <div class="card">
                     <div class="card-content">
                         <h3>Project Title</h3>
-                        <p>description</p>
+                        <p>Quisque auctor urna sit amet turpis luctus commodo. Cras eu porta nulla, a faucibus neque. Aliquam tempus ullamcorper sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquet est eu ante pretium blandit. Donec eget quam quis lorem malesuada viverra ac sit amet dui.</p>
                     </div>
                     <div class="card-icon">
                         <img src="./icons/star-plus-outline.svg" alt="star" class="prj-btn">
@@ -134,44 +135,56 @@
         </div>
     </div>
 
-    <div class="announcement-container subcontent">
+    <div class="announcement-container">
         <h2>Announcements</h2>
-        <div class="announcements">
+        <div class="announcements subcontent">
             <div class="announce">
                 <h4 class="announce-title">Announce title</h4>
-                <p class="announce-details">Details</p>
+                <p class="announce-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie risus eget lacinia vehicula. Vivamus blandit leo tellus, vel feugiat magna facilisis vitae.</p>
             </div>
             <div class="announce">
                 <h4 class="announce-title">Announce title</h4>
-                <p class="announce-details">Details</p>
+                <p class="announce-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie risus eget lacinia vehicula. Vivamus blandit leo tellus, vel feugiat magna facilisis vitae.</p>
             </div>
             <div class="announce">
                 <h4 class="announce-title">Announce title</h4>
-                <p class="announce-details">Details</p>
+                <p class="announce-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie risus eget lacinia vehicula.</p>
             </div>
         </div>
         
         
     </div>
 
-    <div class="trendings-container subcontent">
+    <div class="trendings-container">
         <h2>Trending</h2>
-        <div class="announcements">
-            <div class="announce">
-                <p>Id</p>
-                <p>Name</p>
+        <div class="trending subcontent">
+            <div class="member">
+                <img src="cat-avatar.jpg" alt="member-avatar" class="member-avatar">
+                <div class="member-info">
+                    <p>@eddie</p>
+                    <p>World Peace Builder</p>
+                </div>
             </div>
-            <div class="announce">
-                <p>Id</p>
-                <p>Name</p>
+            <div class="member">
+                <img src="cat-avatar.jpg" alt="member-avatar" class="member-avatar">
+                <div class="member-info">
+                    <p>@morgan</p>
+                    <p>Super Cool Project</p>
+                </div>
             </div>
-            <div class="announce">
-                <p>Id</p>
-                <p>Name</p>
+            <div class="member">
+                <img src="cat-avatar.jpg" alt="member-avatar" class="member-avatar">
+                <div class="member-info">
+                    <p>@kendall</p>
+                    <p>Life Changing App</p>
+                </div>
             </div>
-            <div class="announce">
-                <p>Id</p>
-                <p>Name</p>
+            <div class="member">
+                <img src="cat-avatar.jpg" alt="member-avatar" class="member-avatar">
+                <div class="member-info">
+                    <p>@alex</p>
+                    <p>No Traffic Maker</p>
+                </div>
             </div>
         </div>
         
